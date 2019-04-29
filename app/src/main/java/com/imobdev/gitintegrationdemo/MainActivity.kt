@@ -2,6 +2,7 @@ package com.imobdev.gitintegrationdemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,5 +22,11 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
+    }
+
+    // added in dev11
+    private fun sum() {
+        val a = 10+20
+        Log.e("SUM", ""+a)
     }
 }
