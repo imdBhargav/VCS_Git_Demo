@@ -29,4 +29,14 @@ class MainActivity : AppCompatActivity() {
         val a = 10+20
         Log.e("SUM", ""+a)
     }
+
+    private fun substract() {
+        val a = 20-10
+        Log.e("SUM", ""+a)
+    }
+
+    private fun multiply() {
+        val a = 20*10
+        Log.e("Multiplication", ""+a)
+    }
 }
